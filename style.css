@@ -1,7 +1,8 @@
 
 body{
-background-color: #146EB4;
+/* background-color:#12548a; */
 font-family: 'Roboto', sans-serif;
+margin: 0%;
 }
 
 #frontPage{
@@ -15,6 +16,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .topContainer{
+    background-color: #000c1b;
+    color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -23,9 +26,48 @@ font-family: 'Roboto', sans-serif;
 }
 
 .middleContainer{
+    background-color: #232F3E;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: auto;
     justify-content: space-evenly;
+    
+}
+
+.middleContainer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5%;
+}
+
+.hamburgerMenu img{
+    width: 10%;
+    height: 10%;
+    mix-blend-mode: multiply;
+}
+
+/*Bottom Contianer*/
+.bottomContainer{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+/*Bottom 2nd Container*/
+.bottomSecondContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    height:auto;
+}
+
+.firstSec{
+    align-items: center;
 }

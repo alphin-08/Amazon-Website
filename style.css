@@ -1,0 +1,31 @@
+
+body{
+background-color: #146EB4;
+font-family: 'Roboto', sans-serif;
+}
+
+#frontPage{
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.middleContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}

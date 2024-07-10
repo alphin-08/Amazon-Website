@@ -40,13 +40,13 @@ margin: 0%;
     text-decoration: none;
     font-size: 1rem;
     padding: .5%;
+    border: 2%;
 }
 
-.hamburgerMenu img{
-    width: 10%;
-    height: 10%;
-    mix-blend-mode: multiply;
+.middleContainer a:hover{
+    border-color: white;
 }
+
 
 /*Bottom Contianer*/
 .bottomContainer{
@@ -68,6 +68,31 @@ margin: 0%;
     height:auto;
 }
 
-.firstSec{
-    align-items: center;
+.firstSec, .secondSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+.schoolEssentials{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.signIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: .9rem;
+    width: 100%;
+    height: auto;
+}
+
+.signIn button{
+    background-color: rgb(243, 239, 28);
+    border-radius: 10%;
+    padding:.5rem 6.3rem;
 }

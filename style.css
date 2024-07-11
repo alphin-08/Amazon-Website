@@ -1,11 +1,7 @@
 
 body{
-/* background-color:#12548a; */
 font-family: 'Roboto', sans-serif;
 margin: 0%;
-}
-
-#frontPage{
 }
 
 .mainContainer{
@@ -16,15 +12,36 @@ margin: 0%;
 }
 
 .topContainer{
-    background-color: #000c1b;
+    background-color: #0f1111;
     color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
+.topContainerBt{
+color: white;
+text-decoration: none;
+}
+
+.topContainerBt img{
+    width: 6rem;
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/*Middle Container*/ 
 .middleContainer{
     background-color: #232F3E;
     display: flex;
@@ -47,47 +64,76 @@ margin: 0%;
     border-color: white;
 }
 
+.hamburgerMenu{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20%;
+}
+.hamburger-menu {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hamburger-menu .line {
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+
+}
+
 
 /*Bottom Contianer*/
 .bottomContainer{
-    background-color: #F0F0F0;
+    background-color: #E3E6E6;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
 }
 
-/*Bottom 2nd Container*/
-.bottomSecondContainer{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 75%;
-    height:auto;
-}
 
 .firstSec, .secondSec{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex: 1;
+    flex-basis: 80%;
+    margin-top: 5%;
 }
 
-
-.schoolEssentials{
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
+.firstSec>div, .secondSec>div {
+    display: grid;
+    gap: 10px;
+    width: 22%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.firstSec h1, .secondSec h1{
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.firstSec img, .secondSec img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.firstSec a, .secondSec a {
+    text-decoration: none;
+    color: #0b3866;
+}
+
 
 .signIn{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-size: .9rem;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -95,4 +141,30 @@ margin: 0%;
     background-color: rgb(243, 239, 28);
     border-radius: 10%;
     padding:.5rem 6.3rem;
+} 
+
+/*Third Section/ Fourth Section*/
+.thirdSec, .fourthSec{
+    display: flex;
+    flex-direction: column;
+}
+
+.outdoorImgs, .computerImgs{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*DeepBottomTop*/
+
+.deepBtTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deepBtTop2{
+border: 2px solid rgb(78, 75, 75);
+    /* 2px width, solid style, gray color */
+    padding: 2rem;
 }
